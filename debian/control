@@ -1,0 +1,14 @@
+Source: r-cran-biomart
+Section: gnu-r
+Priority: optional
+Maintainer: The Genome Institute <gmt@genome.wustl.edu>
+Build-Depends: r-base-dev, r-base-core, debhelper (>> 4.1.0), r-cran-xml, r-cran-rcurl
+Homepage: http://www.bioconductor.org/packages/2.11/bioc/html/biomaRt.html
+
+Package: r-cran-biomart
+Architecture: all
+Maintainer: Steffen Durinck <sdurinck@gmail.com>
+Description: In recent years a wealth of biological data has become available in public data repositories. Easy access to these valuable data resources and firm integration with data analysis is needed for comprehensive bioinformatics data analysis. biomaRt provides an interface to a growing collection of databases implementing the BioMart software suite (http://www.biomart.org). The package enables retrieval of large amounts of data in a uniform way without the need to know the underlying database schemas or write complex SQL queries. Examples of BioMart databases are Ensembl, COSMIC, Uniprot, HGNC, Gramene, Wormbase and dbSNP mapped to Ensembl. These major databases give biomaRt users direct access to a diverse set of data and enable a wide range of powerful online queries from gene annotation to database mining.
+License: Artistic2.0
+Depends: r-base-core, r-cran-xml, r-cran-rcurl
+
